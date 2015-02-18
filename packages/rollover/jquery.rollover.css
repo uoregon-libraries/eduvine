@@ -1,0 +1,164 @@
+/* Jon's custom rollover for excerpt */
+
+#intro-eduvine-wrapper {   
+	margin: 0 0 30px 6px; 
+	width: 924px;  
+	height: 512px;  
+	float: left;  
+	background: url(../../images/eduvine-border-924px.png);  
+	border: solid 1px #790008;  /*orb red: #F67D79 */
+	overflow: hidden;  
+ 	position: relative;
+	}
+
+#intro-eduvine {   
+	margin: 0 0 0 0; 
+	width: 861px;  
+	height: 450px;  
+	float: left;  
+	background: #ffffff;  
+	/*border: solid 1px #790008;  orb red: #F67D79 */
+	overflow: hidden;  
+ 	position: relative;
+ 	/* with a wrapper border, need the position */
+ 	left: 31px;
+ 	top: 31px;
+	}
+#intro-eduvine img{  
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 0px;
+	}
+
+.class_box_shadow{
+  width: 860px;
+  min-width: 200px;
+  min-height: 130px;
+  margin: auto;
+  background: #ffffff;
+  border: 5px solid white;
+  position:relative;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.80);
+  -moz-box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.80);
+  -webkit-box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.80);
+} 
+
+#captionfull-eduvine {   
+	margin: 0; 
+	width: 860px;  
+	height: 125px;  
+	float: left;
+	top: 300px; 
+	/*background: #161613; no BG! just container for text */ 
+	overflow: hidden;  
+ 	position: relative;
+ 	opacity: 0.8;
+	} 
+.boxcaption-eduvine { 
+	float: left; 
+	position: absolute; 
+	background: #f4f0d5;  /* BG color of the caption.  CV bg color is f4f0d5 */
+	height: 125px; 
+	width: 100%;
+	opacity: 0.9; 
+	/* For IE 5-7 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+	/* For IE 8 */
+	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	}
+#captionfull-eduvine a:link {
+  text-decoration: none;
+	cursor:pointer; cursor:hand
+	}
+#captionfull-eduvine a:visited {
+	/* Fix for IE css inherits red underline text-decoration */
+  text-decoration: none;
+	cursor:pointer; cursor:hand
+	}
+#captionfull-eduvine .boxcaption-eduvine { 
+	top: 200px;
+	left: 0;
+	cursor:pointer; cursor:hand
+	}
+.caption .boxcaption-eduvine {  
+	top: 138px;  
+	left: 0;  
+	}
+	
+/* Text elements for caption */
+.captiontitle-eduvine {
+	margin: 10px 35px 40px 45px;
+	color: #161613;
+	font-size: 15px;
+	line-height: 20px;
+	cursor:pointer; cursor:hand
+	}
+.captiontext-eduvine {
+	margin: 10px 35px 40px 30px;
+	color: #161613; /*could be darker*/
+	font-size: 14px;
+	line-height: 20px;
+	cursor:pointer; cursor:hand
+	}
+.rollover_title {
+	font-size: 20px;
+}
+
+/* Topic Rollover Divs */
+.eduvine-orb-placeholder{
+	background-image: url(../../images/transparent.png);
+	z-index:1;	
+/*	border-style: solid;
+	border-width: 1px;*/
+}
+#eduvine-topic-1 {
+	width: 60px;
+	height: 58px;
+	position: absolute;
+	top: 50px;
+	left: 95px;
+}
+#eduvine-topic-1-hoverimg {
+	display:none;
+}
+#eduvine-topic-2 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 47px;
+	left: 250px;
+}
+#eduvine-topic-2-hoverimg {
+	display:none;
+}
+#eduvine-topic-3 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 183px;
+	left: 260px;
+}
+#eduvine-topic-3-hoverimg {
+	display:none;
+}
+#eduvine-topic-4 {
+	width: 53px;
+	height: 50px;
+	position: absolute;
+	top: 50px;
+	left: 560px;
+}
+#eduvine-topic-4-hoverimg {
+	display:none;
+}
+#eduvine-topic-5 {
+	width: 50px;
+	height: 47px;
+	position: absolute;
+	top: 60px;
+	left: 661px;
+	z-index: 1;
+}
+#eduvine-topic-5-hoverimg {
+	display:none;
+}

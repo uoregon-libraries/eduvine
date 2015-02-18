@@ -1,0 +1,160 @@
+#eduvine_intro {
+	width:600px;
+}
+
+#eduvine_terms {
+	position:relative;
+	float:right;
+}
+
+.edu-instructions {
+	font-size: 18px;
+}
+
+#instruction_orb_halo {
+	width: 63px;
+	height: 63px;
+	position: absolute;
+	top: 68px;
+	display:none;
+}
+
+#eduvineTopicImage{
+	float:left;
+	width:196px;
+}
+
+
+#eduvine_logo {
+	padding-left: 20px;
+}
+
+.eduvine_contributeHeader {
+	border-top-width: 0px;
+	margin-top: 10px;
+	width: 900px;
+}
+.eduvine_contributeHeader p {
+	width: 875px;
+	padding-left: 10px;
+}
+
+#post_explore {
+	font-size: 12px;
+	line-height: 18px;
+}
+#post_explore h4 {
+	font-size: 14px;
+}
+#post_challenge {
+	font-size: 12px;
+	line-height: 18px;
+}
+#post_challenge h4 {
+	font-size: 14px;
+}
+
+#respond #reply-title {
+	margin: 0;
+}
+.fancybox-skin{
+	background-color: #F2EFD3;
+}
+#intro-eduvine{
+	background: transparent;
+}
+
+.separate {
+	margin: 5px 0 10px 0 !important;
+	padding: 0;
+	font-size: .9em;
+	text-indent: 0;
+	border-color: black;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+}
+.post-content h5 {
+	margin: 5px 0 10px 0 !important;
+	padding: 0;
+	font-size: .9em;
+	text-indent: 0;
+}
+.post-content h6 {
+	margin: 5px 0 10px 0 !important;
+	padding: 0;
+	font-size: .9em;
+	text-indent: 0;
+	border-color: black;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+}
+
+/*TOPIC PAGE*/
+.unit_overview {
+	display: inline-block;
+	width: 100%;
+}
+#content .unit_overview img {
+	margin-right: 20px;
+}
+.unit_overview span {
+	position: relative;
+}
+.unit_overview-right {
+	display: inline-block;
+	width: 100%;
+}
+#content .unit_overview-right img {
+	margin-left:20px;
+}
+.unit_overview-right span {
+	position: relative;
+}
+
+/*LESSON PAGE*/
+#content .poststandardlink p {
+	margin:0;
+}
+
+#lesson_section_tabs {
+	width:100%;
+	float:left;
+	padding:0;
+	margin:10px 0 10px 0;
+}
+
+.section-tab {
+	position:relative;
+	display:inline;
+	width: 200px;
+	float:left;
+	text-align: center;
+}
+
+.section-tab .highlight a {
+background: #EEE3AD;
+border-left: 5px solid #560401;
+padding-left: 5px;
+margin: 0;
+}
+
+/*COMMENTS*/
+
+#respond .comment_instructions {
+	float:right;
+}
+
+/* Homepage Logos Footer */
+#eduvine_grants {
+ font-size:12px;
+ position:relative;
+ float:left;
+ margin-top:10px;
+}
+.eduvine_logos {
+	display:inline;
+}
+.eduvine_logos span {
+	position: relative;
+	bottom: 20px;
+}
